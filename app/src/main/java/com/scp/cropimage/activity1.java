@@ -132,7 +132,7 @@ public class activity1 extends AppCompatActivity {
 
 
 
-                File dir = new File(filepath.getAbsolutePath() + "/ImageCrop-TC/");
+                File dir = new File(filepath.getAbsolutePath() + "/TotalCrop/");
                 dir.mkdirs();
                 File file = new File(dir,System.currentTimeMillis()+".jpg");
                 try {
