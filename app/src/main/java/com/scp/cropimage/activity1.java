@@ -101,7 +101,8 @@ public class activity1 extends AppCompatActivity {
                            .setGuidelines(CropImageView.Guidelines.ON)
                            .setMultiTouchEnabled(true)
                            .setActivityTitle("Edit")
-                           .setAllowFlipping(false)
+                           .setAllowFlipping(true)
+                           .setAllowRotation(true)
                            .start(activity1.this);
 
 
